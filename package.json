@@ -6,6 +6,7 @@
   "scripts": {
     "all": "npm test",
     "dev": "karma start",
+    "start": "TEST_BROWSERS=Debug npm run dev",
     "test": "karma start --single-run --no-auto-watch"
   },
   "repository": {

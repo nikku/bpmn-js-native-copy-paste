@@ -25,7 +25,7 @@
   "devDependencies": {
     "chai": "^6.2.2",
     "downloadjs": "^1.4.7",
-    "file-drops": "^0.4.0",
+    "file-drops": "^0.6.2",
     "file-open": "^0.2.0",
     "karma": "^6.4.4",
     "karma-chrome-launcher": "^3.2.0",

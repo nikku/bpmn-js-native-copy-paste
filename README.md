@@ -31,7 +31,7 @@ await modeler.importXML(require('./ticket-booking.bpmn'));
 
 ## How it Works
 
-It relies on the bpmn-js copy tree to be serializable to JSON. When re-creating the tree from JSON we use a [reviver]([https://github.com/nikku/bpmn-js-native-copy-paste/blob/main/lib/NativeCopyPaste.js#L125](https://github.com/nikku/bpmn-js-native-copy-paste/blob/main/lib/PasteUtil.js#L15)) to re-construct the model types.
+It relies on the bpmn-js copy tree to be serializable to JSON. When re-creating the tree from JSON we use a [reviver](https://github.com/nikku/bpmn-js-native-copy-paste/blob/main/lib/PasteUtil.js#L15)) to re-construct the model types.
 
 
 ## Build and Run

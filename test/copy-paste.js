@@ -81,10 +81,7 @@ describe('copy-paste', function() {
       container: testContainer(),
       additionalModules: [
         nativeCopyModule
-      ],
-      keyboard: {
-        bindTo: document.body
-      }
+      ]
     });
 
     await modeler.importXML(sampleDiagram);

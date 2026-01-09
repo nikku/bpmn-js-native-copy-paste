@@ -6,6 +6,10 @@ All notable changes to [bpmn-js-native-copy-paste](https://github.com/nikku/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.0.2
+
+* `DEPS`: add `min-dash@4.2.3` dependency
+
 ## 0.0.1
 
 _Initial release._

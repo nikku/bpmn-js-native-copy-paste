@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/nikku/bpmn-js-native-copy-paste#readme",
   "devDependencies": {
+    "bpmn-js": "^18.10.1",
     "bpmn-js-properties-panel": "^5.46.0",
     "camunda-bpmn-js-behaviors": "^1.12.0",
     "chai": "^6.2.2",
@@ -40,7 +41,7 @@
     "webpack": "^5.104.1",
     "zeebe-bpmn-moddle": "^1.12.0"
   },
-  "dependencies": {
-    "bpmn-js": "^18.10.1"
+  "peerDependencies": {
+    "bpmn-js": ">= 18.10.0"
   }
 }

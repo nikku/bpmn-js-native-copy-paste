@@ -43,5 +43,8 @@
   },
   "peerDependencies": {
     "bpmn-js": ">= 18.10.0"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }

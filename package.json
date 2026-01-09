@@ -22,6 +22,9 @@
     "url": "https://github.com/nikku/bpmn-js-native-copy-paste/issues"
   },
   "homepage": "https://github.com/nikku/bpmn-js-native-copy-paste#readme",
+  "dependencies": {
+    "min-dash": "^4.2.3"
+  },
   "devDependencies": {
     "bpmn-js": "^18.10.1",
     "bpmn-js-properties-panel": "^5.46.0",

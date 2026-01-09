@@ -1,6 +1,6 @@
 {
   "name": "bpmn-js-native-copy-paste",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Adding native (cross-browser and application) copy and paste to bpmn-js",
   "main": "lib/index.js",
   "scripts": {

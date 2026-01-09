@@ -9,9 +9,9 @@ Copy and paste for [bpmn-js](https://github.com/bpmn-io/bpmn-js) implemented usi
 
 * copy and paste using the system clipboard
 * works between different BPMN modeler instances
-* works across browser windows (!)
+* works across browser windows
 * disables built-in `clipboard`
-* works in requires modern browsers
+* works in modern browsers
 
 
 ## Usage

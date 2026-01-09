@@ -26,17 +26,17 @@
     "downloadjs": "^1.4.7",
     "file-drops": "^0.4.0",
     "file-open": "^0.1.1",
-    "karma": "^6.4.0",
-    "karma-chrome-launcher": "^3.1.1",
+    "karma": "^6.4.4",
+    "karma-chrome-launcher": "^3.2.0",
     "karma-debug-launcher": "0.0.5",
     "karma-mocha": "^2.0.1",
     "karma-sinon-chai": "^2.0.2",
-    "karma-webpack": "^5.0.0",
+    "karma-webpack": "^5.0.1",
     "mocha": "^10.0.0",
-    "puppeteer": "^16.2.0",
+    "puppeteer": "^24.34.0",
     "sinon": "^14.0.0",
     "sinon-chai": "^3.7.0",
-    "webpack": "^5.74.0"
+    "webpack": "^5.104.1"
   },
   "dependencies": {
     "bpmn-js": "^9.4.0"

@@ -9,7 +9,7 @@ process.env.CHROME_BIN = require('puppeteer').executablePath();
 
 const absoluteBasePath = path.resolve(__dirname);
 
-const suite = 'test/copy-paste.js';
+const suite = 'test/testBundle.js';
 
 module.exports = function(karma) {
   karma.set({
@@ -34,7 +34,6 @@ module.exports = function(karma) {
 
     webpack: {
       mode: 'development',
-      target: 'browserslist:last 2 versions, IE 11',
       module: {
         rules: [
           {

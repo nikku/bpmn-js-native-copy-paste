@@ -6,6 +6,12 @@ All notable changes to [bpmn-js-native-copy-paste](https://github.com/nikku/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.2.0
+
+* `FEAT`: emit copy and paste errors
+* `FEAT`: allow to enable and disable feature based (i.e. based on granted user permissions)
+* `CHORE`: remove superfluous log statement
+
 ## 0.1.0
 
 _Marked as stable release._

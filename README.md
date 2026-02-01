@@ -8,13 +8,18 @@ Copy and paste for [bpmn-js](https://github.com/bpmn-io/bpmn-js) implemented usi
 ## Features
 
 * copy and paste using the [system clipboard](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
+* works in [modern browsers](https://caniuse.com/async-clipboard)
 * works between different BPMN modeler instances
 * works across browser windows
-* works in modern browsers
 * disables built-in `clipboard`
 
 
 ## Usage
+
+> [!NOTE]
+> Interaction with the clipboard requires user interaction/confirmation, cf. [security considerations](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API#security_considerations). You can [fallback to the local clipboard](#graceful-fallback) if access is rejected.
+
+Include [bpmn-js-native-copy-paste](https://github.com/nikku/bpmn-js-native-copy-paste) as a module to use the system clipboard:
 
 ```javascript
 import NativeCopyPasteModule from 'bpmn-js-native-copy-paste';
@@ -28,6 +33,20 @@ const modeler = new BpmnModeler({
 await modeler.importXML(require('./ticket-booking.bpmn'));
 ```
 
+#### Graceful fallback
+
+When access to the system clipboard is rejected you can fallback to local copy and paste:
+
+```javascript
+const eventBus = modeler.get('eventBus');
+const nativeCopyPaste = modeler.get('nativeCopyPaste');
+
+eventBus.on('native-copy-paste:error', ({ message, error }) => {
+
+  // toggle off
+  nativeCopyPaste.toggle(false);
+});
+```
 
 ## How it Works
 

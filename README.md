@@ -17,7 +17,7 @@ Copy and paste for [bpmn-js](https://github.com/bpmn-io/bpmn-js) implemented usi
 ## Usage
 
 ```javascript
-import NativeCopyPaste from 'bpmn-js-native-copy-paste';
+import NativeCopyPasteModule from 'bpmn-js-native-copy-paste';
 
 const modeler = new BpmnModeler({
   additionalModules: [

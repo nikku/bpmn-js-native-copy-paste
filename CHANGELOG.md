@@ -6,6 +6,10 @@ All notable changes to [bpmn-js-native-copy-paste](https://github.com/nikku/bpmn
 
 ___Note:__ Yet to be released changes appear here._
 
+## 0.3.0
+
+* `DEPS`: update to `min-dash@5.0.0`
+
 ## 0.2.0
 
 * `FEAT`: emit copy and paste errors

@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/nikku/bpmn-js-native-copy-paste#readme",
   "dependencies": {
-    "min-dash": "^4.2.3"
+    "min-dash": "^5.0.0"
   },
   "devDependencies": {
     "bpmn-js": "^18.12.0",
